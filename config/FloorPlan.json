@@ -1,0 +1,67 @@
+{
+    "FLOOR": "EBMTest",
+    "WIDTH": 64,
+    "HEIGHT": 32,
+    "UNIT": 16,
+    "PAD": 1,
+    "DURATION": 5000,
+    "WALL": [
+    	{ "START": [0, 0], "END": [65, 0] },
+    	{ "START": [0, 33], "END": [65, 33] },
+    	{ "START": [0, 0], "END": [0, 33] },
+    	{ "START": [65,0], "END": [65, 33] },
+    	{ "START": [16,0], "END": [16, 16] },
+    	{ "START": [32,0], "END": [32, 16] },
+    	{ "START": [32,24], "END": [32, 33] },
+    	{ "START": [16,24], "END": [16, 33] },
+    	{ "START": [48,0], "END": [48, 33] },
+    	{ "START": [0,16], "END": [48, 16] }
+    ],
+    "ROOM":[
+    	{ 
+		"NUMBER": 1, 
+		"VOLUME": 20, 
+		"INITIAL": 10, 
+		"TARGET": 26, 
+		"DELTA": 5, 
+		"SPACE": [ 1, 1, 15, 15 ],
+		"HVAC": [8, 1, 10, 2] 
+	},
+    	{ 
+		"NUMBER": 2, 
+		"VOLUME": 20, 
+		"INITIAL": 12, 
+		"TARGET": 24, 
+		"DELTA": 6, 
+		"SPACE": [ 17, 1, 15, 15 ],
+		"HVAC": [24, 1, 10, 2] 
+	},
+    	{ 
+		"NUMBER": 3, 
+		"VOLUME": 20, 
+		"INITIAL": 8, 
+		"TARGET": 24, 
+		"DELTA": 5, 
+		"SPACE": [ 33, 1, 15, 15 ],
+		"HVAC": [40, 1, 10, 2] 
+	},
+    	{ 
+		"NUMBER": 4, 
+		"VOLUME": 40, 
+		"INITIAL": 15, 
+		"TARGET": 26, 
+		"DELTA": 4, 
+		"SPACE": [ 49, 1, 16, 32 ],
+		"HVAC": [63, 16, 10, 3] 
+	},
+    	{ 
+		"NUMBER": 5, 
+		"VOLUME": 60, 
+		"INITIAL": 6, 
+		"TARGET": 24, 
+		"DELTA": 3, 
+		"SPACE": [ 1, 17, 47, 32 ],
+		"HVAC": [24, 30, 10, 4] 
+	}
+    ]
+}
